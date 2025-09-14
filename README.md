@@ -61,7 +61,7 @@ src/
  │    ├── Dishes.jsx
  │    ├── DishItem.jsx
  │    ├── Modal.jsx
- │    └── Header/
+ │    └── Header/Header.jsx
  │
  ├── store/
  │    ├── store.js
