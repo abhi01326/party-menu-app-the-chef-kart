@@ -75,7 +75,7 @@ const Header = () => {
         </button>
       </div>
       {/* categories */}
-      <div className="flex flex-row items-center justify-around gap-5 px-2 w-screen h-[60px] pointer-events-auto">
+      <div className="flex flex-row items-center justify-around w-screen h-[60px] pointer-events-auto">
         {categories.map((category) => (
           <button
             key={category.name}

@@ -45,7 +45,7 @@ const Dishes = () => {
           : dishes.map((dish) => <DishItem key={dish.id} dish={dish} toogleModal={toggleModal} />)}
       </div>
       {/* cart item */}
-      <div className="h-[15vh] fixed w-screen bg-white bottom-0 p-4 flex flex-col justify-around items-center">
+      <div className="h-[15vh] fixed w-[100vw] bg-white bottom-0 p-4 flex flex-col justify-around items-center">
         <div className="flex flex-row w-full justify-between items-center">
           <p className="">Total Dish Selected : {cartLength}</p>
         </div>
